@@ -38,8 +38,9 @@ Example files for Rekall organization:
 - `references/linear/<board>/`: Append-only feed/dump of Linear tickets.
 - `references/google-docs/<file>.md`: Markdown representation of Google Docs.
 - `references/google-meets/<meeting-date>.md`: Transcripts from relevant Google Meets.
-- `references/figma/<project>`: Figma dump.
-- `references/claude-design/marketing-website`: Example export of a design project.
+- `references/figma/<project>/`: Figma export.
+- `references/claude-design/branding/`: Example export of a design project.
+- `references/claude-design/marketing-website/`: Example export of a design project.
 
 ## `prompts/`
 
