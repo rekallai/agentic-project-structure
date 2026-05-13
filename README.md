@@ -12,7 +12,7 @@ An opinionated layout for projects that mix human signal with AI-generated outpu
 | `plans/`      | AI-generated well organized plans, reports and drafts | Mostly AI     |
 | `repos/`      | Github code repositories                              | Mostly AI     |
 
-_Note: A top level AGENTS.md for directory and convention orientation_
+_Note: Supplemented with a top level AGENTS.md for agent context loading of directory structure and common conventions_
 
 ## `specs/`
 
@@ -61,3 +61,7 @@ Examples:
 - `plans/marketing-website/implementation-plan.md`: Full plan in md, TLDR at the top.
 - `plans/marketing-website/implementation-plan.html`: Visualized plan in rich HTML.
 - `plans/style.css`: Common styles for HTML plans
+
+## `repos/`
+
+Repositories for agenticly produced artifacts (e.g. Github code repos).
