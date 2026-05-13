@@ -4,13 +4,15 @@ An opinionated layout for projects that mix human signal with AI-generated outpu
 
 ## Top-level Directory Structure
 
-| Path          | Purpose                                              | Authorship    |
-|---------------|------------------------------------------------------|---------------|
-| `specs/`      | High-signal project specifications                   | Mostly Human  |
-| `references/` | Additional inputs such as docs, data or feeds        | Mostly Human  |
-| `prompts/`    | Known patterns for agents to run                     | Mostly Human  |
-| `plans/`      | AI-generated well organized plans and reports        | Mostly AI     |
-| `repos/`      | Github code repositories                             | Mostly AI     |
+| Path          | Purpose                                               | Authorship    |
+|---------------|-------------------------------------------------------|---------------|
+| `specs/`      | High-signal project specifications                    | Mostly Human  |
+| `references/` | Additional inputs such as docs, data or feeds         | Mostly Human  |
+| `prompts/`    | Known patterns for agents to run                      | Mostly Human  |
+| `plans/`      | AI-generated well organized plans, reports and drafts | Mostly AI     |
+| `repos/`      | Github code repositories                              | Mostly AI     |
+
+_Note: A top level AGENTS.md for directory and convention orientation_
 
 ## `specs/`
 
@@ -23,7 +25,7 @@ Example files for software product projects:
 - `specs/product/mvp-scope.md`: A definition of the Minimum Viable Product.
 - `specs/marketing/value-proposition.md`: An outline of the marketing message
 
-Note: We can imagine certain tooling that creates a write-only file (e.g. a Google Doc vision doc that outputs to specs/vision.md)
+_Note: We can imagine certain tooling that creates a write-only file (e.g. a Google Doc vision doc that outputs to specs/vision.md)_
 
 ## `references/`
 
