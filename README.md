@@ -1,6 +1,8 @@
-# DRAFT: Rekall Agentic Project Structure (RAPS)
+# Context-Reusable Agentic Folder Tree (CRAFT)
 
-An opinionated layout for projects that mix human signal with AI-generated output.
+CRAFT is an open standard for structuring agentic projects — where humans and AI collaborate on everything from product vision to shipped code. It rests on a simple premise: the quality of AI output is bounded by the quality of its inputs, so context deserves the same care as code. CRAFT separates slow-moving human signal (vision, domain knowledge, references) from fast-moving AI output (plans, drafts, repositories), and keeps each at a stable, predictable path. The result is a working environment where context is reusable across plans, human intent stays legible, and agents can find what they need without MCP overhead or search gymnastics — just flat files in a tree designed for the way agentic work actually flows.
+
+_Note: We are still iterating on this - feedback actively wanted - just open a GH issue_
 
 ## Top-level Directory Structure
 
@@ -10,7 +12,7 @@ An opinionated layout for projects that mix human signal with AI-generated outpu
 | `references/` | Additional inputs such as docs, data or feeds         | Mostly Human  |
 | `prompts/`    | Known patterns for agents to run                      | Mostly Human  |
 | `plans/`      | AI-collaborated well organized plans, reports and drafts | Mostly AI     |
-| `repos/`      | Github code repositories                              | Mostly AI     |
+| `build/`      | Github code repositories                              | Mostly AI     |
 
 _Note: Supplemented with a top level AGENTS.md for agent context loading of directory structure and common conventions_
 
@@ -62,6 +64,12 @@ Examples:
 - `plans/marketing-website/implementation-plan.html`: Visualized plan in rich HTML.
 - `plans/style.css`: Common styles for HTML plans
 
-## `repos/`
+## `build/`
 
-Repositories for agenticly produced artifacts (e.g. Github code repos).
+Agenticly produced artifacts. Examples:
+
+- Apps
+- Services
+- Infrastructure
+- Libraries
+- Plugins
