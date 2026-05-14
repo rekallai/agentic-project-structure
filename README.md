@@ -2,19 +2,21 @@
 
 CRAFT is an open standard for structuring agentic projects — where humans and AI collaborate on everything from product vision to shipped code. It rests on a simple premise: the quality of AI output is bounded by the quality of its inputs, so context deserves the same care as code. CRAFT separates slow-moving human signal (vision, domain knowledge, references) from fast-moving AI output (plans, drafts, repositories), and keeps each at a stable, predictable path. The result is a working environment where context is reusable across plans, human intent stays legible, and agents can find what they need without MCP overhead or search gymnastics — just flat files in a tree designed for the way agentic work actually flows.
 
-_Note: We are still iterating on this - feedback actively wanted - just open a GH issue_
+*Note: We are still iterating on this - feedback actively wanted - just open a GH issue*
 
 ## Top-level Directory Structure
 
-| Path          | Purpose                                               | Authorship    |
-|---------------|-------------------------------------------------------|---------------|
-| `specs/`      | High-signal project specifications                    | Mostly Human  |
-| `references/` | Additional inputs such as docs, data or feeds         | Mostly Human  |
-| `prompts/`    | Known patterns for agents to run                      | Mostly Human  |
-| `plans/`      | AI-collaborated well organized plans, reports and drafts | Mostly AI     |
-| `build/`      | Github code repositories                              | Mostly AI     |
 
-_Note: Supplemented with a top level AGENTS.md for agent context loading of directory structure and common conventions_
+| Path          | Purpose                                                  | Authorship   |
+| ------------- | -------------------------------------------------------- | ------------ |
+| `specs/`      | High-signal project specifications                       | Mostly Human |
+| `references/` | Additional inputs such as docs, data or feeds            | Mostly Human |
+| `prompts/`    | Known patterns for agents to run                         | Mostly Human |
+| `plans/`      | AI-collaborated well organized plans, reports and drafts | Mostly AI    |
+| `build/`      | Github code repositories                                 | Mostly AI    |
+
+
+*Note: Supplemented with a top level AGENTS.md for agent context loading of directory structure and common conventions*
 
 ## `specs/`
 
@@ -27,7 +29,7 @@ Example files for software product projects:
 - `specs/product/mvp-scope.md`: A definition of the Minimum Viable Product.
 - `specs/marketing/value-proposition.md`: An outline of the marketing message
 
-_Note: We can imagine certain tooling that creates a write-only file (e.g. a Google Doc vision doc that outputs to specs/vision.md)_
+*Note: We can imagine certain tooling that creates a write-only file (e.g. a Google Doc vision doc that outputs to specs/vision.md)*
 
 ## `references/`
 
@@ -73,3 +75,4 @@ Agenticly produced artifacts. Examples:
 - Infrastructure
 - Libraries
 - Plugins
+
